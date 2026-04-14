@@ -1,0 +1,26 @@
+/* The Parent (The whole page) */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.cont {
+    width: 400px;
+    height: 100px;
+    background: rgba(173, 166, 166, 0.5);
+    padding: 20px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
